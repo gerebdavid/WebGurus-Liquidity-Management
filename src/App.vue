@@ -1,11 +1,6 @@
 <template>
   <v-app>
-<<<<<<< Updated upstream
 
-
-    <v-main>
-      <LoginPage/>
-=======
     <v-app-bar
       app
       color="blue-grey lighten-1"
@@ -26,7 +21,8 @@
 
     <v-main>
       <FormPage/>
->>>>>>> Stashed changes
+      <!-- <LoginPage/> -->
+
     </v-main>
   </v-app>
 
@@ -34,23 +30,15 @@
 </template>
 
 <script>
-<<<<<<< Updated upstream
-import LoginPage from './components/LoginPage';
-=======
+//import LoginPage from './components/LoginPage';
 import FormPage from './components/FormPage';
-//import HelloWorld from './components/HelloWorld';
->>>>>>> Stashed changes
 
 export default {
   name: 'App',
 
   components: {
-<<<<<<< Updated upstream
-    LoginPage,
-=======
+    //LoginPage,
     FormPage,
-    //HelloWorld,
->>>>>>> Stashed changes
   },
 
   data: () => ({
